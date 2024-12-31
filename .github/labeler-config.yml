@@ -4,7 +4,7 @@ filters:
       - /\bfeat\b/
       - /feature/i
     events: [issues, pull_request]
-    targets: [title, comment]
+    targets: [title]
   - label: bug
     regexs:
       - /fix|bug/
